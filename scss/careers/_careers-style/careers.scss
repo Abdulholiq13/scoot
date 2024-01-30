@@ -1,0 +1,136 @@
+body {
+  .careers-section {
+  }
+  .careers {
+    width: 1348px;
+    height: 200px;
+    flex-shrink: 0;
+    background-image: url(../../../img/careers/Bitmap.png);
+    margin-top: 30px;
+    display: flex;
+  }
+
+  .careers-h3 {
+    color: #fff;
+    font-family: "Space Mono";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 100% */
+    letter-spacing: -2.5px;
+    margin-top: 70px;
+    margin-left: 165px;
+  }
+
+  .careers-img {
+    width: 234px;
+    height: 63px;
+    flex-shrink: 0;
+    margin-left: 728px;
+    margin-top: 65px;
+  }
+  .intro {
+    display: flex;
+    margin-left: 165px;
+    gap: 95px;
+
+    &-h3 {
+      color: #495567;
+      font-size: 48px;
+      line-height: 48px;
+      width: 305px;
+      letter-spacing: -2.143px;
+      margin-top: 266px;
+
+      &__p {
+        width: 445px;
+        color: #939caa;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        margin-top: 24px;
+        margin-bottom: 40px;
+
+        &__button {
+          width: 180px;
+          height: 53px;
+          flex-shrink: 0;
+          background: #fcb72b;
+          margin-bottom: 266px;
+
+          &-img {
+            width: 647px;
+            height: 398px;
+            flex-shrink: 0;
+            margin-top: 247px;
+
+            &__div {
+              margin-left: -15px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .join {
+    width: 1110px;
+    height: 608px;
+    flex-shrink: 0;
+
+    .join-h3 {
+      width: 540px;
+      color: #495567;
+      text-align: center;
+      font-family: "Space Mono";
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 48px; /* 100% */
+      letter-spacing: -2.143px;
+      text-align: center;
+      margin-left: 450px;
+    }
+
+    .join-father {
+      display: flex;
+      gap: 30px;
+      margin-left: 100px;
+    }
+
+    .join-main {
+      width: 350px;
+      height: 512px;
+      flex-shrink: 0;
+    }
+
+    .join-img {
+      width: 350px;
+      height: 350px;
+      flex-shrink: 0;
+    }
+
+    .join-h4 {
+      width: 350px;
+      color: #495567;
+      text-align: center;
+      font-family: "Space Mono";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px; /* 116.667% */
+      letter-spacing: -1.071px;
+    }
+
+    .join-p {
+      width: 350px;
+      color: #939caa;
+      text-align: center;
+      font-family: "Lexend Deca";
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px; /* 166.667% */
+    }
+  }
+}
