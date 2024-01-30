@@ -1,0 +1,12 @@
+.btn {
+  border: 3px solid transparent;
+  font-family: $space-mono;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-left: auto;
+  padding: 14px 39px;
+  background-color: $yellow;
+  color: #fff;
+  transition: all 0.3s ease;
+}
