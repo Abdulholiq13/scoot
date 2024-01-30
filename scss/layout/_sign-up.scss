@@ -1,0 +1,36 @@
+.sign-up {
+  width: 100%;
+  padding: 102px 0;
+  background-color: $dark-navy;
+  background-image: url('../img/sign-up.png');
+  background-position: right calc(50% - 220px) bottom;
+  background-repeat: no-repeat;
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    /* Retina-specific stuff here */
+    .sign-up {
+      background-image: url('../img/sign-up@2x.png');
+      background-position: right bottom;
+    }
+  }
+}
+.container {
+}
+.sign-up__title {
+}
+.sign-up__link-wrapper {
+}
+.sign-up__link {
+}
+.sign-up__link-icon {
+  width: 24px;
+  height: 28px;
+}
+.sign-up__link-text {
+}
+.large {
+}
