@@ -10,3 +10,9 @@
   color: #fff;
   transition: all 0.3s ease;
 }
+
+.btn:hover {
+  background-color: transparent;
+  border: 3px solid $yellow;
+  color: $yellow;
+}
