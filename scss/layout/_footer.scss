@@ -2,5 +2,33 @@
   width: 100%;
   padding: 20px;
   margin-top: auto;
-  background-color: red;
+  background-color: #333a44;
+  .footer__container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.social__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  gap: 24px;
+  margin-left: auto;
+}
+
+.social__link {
+  display: flex;
+  align-items: center;
+}
+
+.social__icon {
+  width: 24px;
+  height: 24px;
+  fill: $yellow;
+  transition: all 0.3s ease;
+  &:hover {
+    fill: #fff;
+  }
 }
