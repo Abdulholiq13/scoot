@@ -3,10 +3,112 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sass</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Scoot</title>
+    <link rel="stylesheet" href="./css/styles.min.css" />
   </head>
   <body>
-    <p>Hello, World!</p>
+    <h1 class="visually-hidden">Scoot</h1>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="header">
+      <div class="container header__container">
+        <a class="logo" href="index.html">
+          <svg class="logo__img">
+            <use xlink:href="./img/svg/sprites.svg#logo"></use>
+          </svg>
+        </a>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="about.html">about</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="location.html">location</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="careers.html">careers</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a class="btn header__link" href="#">get scootion</a>
+      </div>
+    </header>
+    <main id="main">
+      <section class="sign-up">
+        <div class="container sign-up__container">
+          <h2 class="sign-up__title">Sign up and Scoot off today</h2>
+
+          <div class="sign-up__link-wrapper">
+            <a class="sign-up__link" href="#">
+              <svg class="sign-up__link-icon">
+                <use xlink:href="./img/svg/sprites.svg#apple-icon"></use>
+              </svg>
+              <span>
+                <p class="sign-up__link-text">Available on the</p>
+                <p class="sign-up__link-text large">AppStore</p>
+              </span>
+            </a>
+
+            <a class="sign-up__link" href="#">
+              <svg class="sign-up__link-icon">
+                <use xlink:href="./img/svg/sprites.svg#play-store-icon"></use>
+              </svg>
+              <span>
+                <p class="sign-up__link-text">Get it on</p>
+                <p class="sign-up__link-text large">GooglePlay</p>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <a class="logo" href="index.html">
+          <svg class="logo__img">
+            <use xlink:href="./img/svg/sprites.svg#logo-white"></use>
+          </svg>
+        </a>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="about.html">about</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="location.html">location</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="careers.html">careers</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link" href="#">
+              <svg class="social__icon">
+                <use xlink:href="./img/svg/sprites.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+              <svg class="social__icon">
+                <use xlink:href="./img/svg/sprites.svg#x"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+              <svg class="social__icon">
+                <use xlink:href="./img/svg/sprites.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
