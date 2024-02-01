@@ -1,7 +1,8 @@
 .intro {
   padding: 152px 0;
   background-image: url('../img/svg/intro-circle-bg.svg'), url('../img/intro-bg.jpg');
-  background-position: right calc(50% - 630px) bottom calc(50% - 128px), center;
+  background-position: right calc(50% - 625px) bottom calc(50% - 128px), left calc(50% - 1px) top;
+  background-size: auto, cover;
   background-repeat: no-repeat;
   .intro__content {
     .intro__title {
