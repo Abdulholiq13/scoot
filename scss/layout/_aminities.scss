@@ -1,0 +1,65 @@
+.comfortable {
+  padding-bottom: 329px;
+  background-image: url('../img/bg-right-arrow.png'), url('../img/bg-image.png'), url('../img/bg-left-arrow.png'),
+    url('../img/bg-image.png'), url('../img/bg-right-arrow.png'), url('../img/bg-image.png');
+  background-position: right calc(50% - 360px) top 300px, right calc(50% - 830px) top 15px,
+    left calc(50% - 730px) top 620px, left calc(50% - 830px) top 620px, right calc(50% - 740px) top 1285px,
+    right calc(50% - 830px) top 1215px;
+  background-repeat: no-repeat;
+}
+
+.comfortable__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.comfortable__list {
+  display: flex;
+  flex-direction: column;
+  gap: 160px;
+  list-style-type: none;
+}
+
+.comfortable__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.comfortable__texts {
+  width: 445px;
+  margin-right: 220px;
+}
+
+.second-child {
+  margin-left: 220px;
+  margin-right: 0;
+}
+
+.comfortable__title {
+  font-size: 48px;
+  font-family: $space-mono;
+  line-height: 48px;
+  letter-spacing: -2.14px;
+  margin-bottom: 24px;
+}
+
+.comfortable__text {
+  font-size: 15px;
+  line-height: 25px;
+  color: $dim-grey;
+  margin-bottom: 40px;
+}
+
+.display-ib {
+  display: inline-block;
+}
+
+.comfortable__img {
+  position: sticky;
+  z-index: -1;
+  width: 445px;
+  height: 445px;
+}
